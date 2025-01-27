@@ -3,42 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شبكة الخيارات</title>
+    <title>عرض موقع داخل موقعي</title>
     <style>
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* شبكة من 3 أعمدة */
-            gap: 10px;
-        }
-        .grid a {
-            display: block;
+        body {
+            font-family: Arial, sans-serif;
             text-align: center;
-            padding: 15px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
         }
-        .grid a:hover {
-            background-color: #0056b3;
+        iframe {
+            width: 100%;
+            height: 90vh;
+            border: none;
+        }
+        h1 {
+            color: #333;
         }
     </style>
 </head>
 <body>
-    <h1>شبكة الخيارات</h1>
-    <div class="grid">
-        <!-- روابط داخلية -->
-        <a href="page1.html">الصفحة 1</a>
-        <a href="page2.html">الصفحة 2</a>
-
-        <!-- روابط مواقع خارجية -->
-        <a href="https://www.google.com" target="_blank">Google</a>
-        <a href="https://www.youtube.com" target="_blank">YouTube</a>
-        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
-
-        <!-- رابط إلى صفحة داخلية -->
-        <a href="contact.html">صفحة التواصل</a>
-    </div>
+    <h1>مرحبًا بك في موقعي</h1>
+    <p>هذا الموقع يعرض صفحة خارجية:</p>
+    <iframe src="https://noori.com.sa/مجلة-العروض/"></iframe>
 </body>
 </html>
