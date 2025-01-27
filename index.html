@@ -7,17 +7,18 @@
     <style>
         .grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr); /* شبكة من 3 أعمدة */
             gap: 10px;
         }
         .grid a {
             display: block;
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             background-color: #007BFF;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-size: 18px;
         }
         .grid a:hover {
             background-color: #0056b3;
@@ -25,14 +26,19 @@
     </style>
 </head>
 <body>
-    <h1>خياراتك:</h1>
+    <h1>شبكة الخيارات</h1>
     <div class="grid">
-        <a href="page1.html">الخيار 1</a>
-        <a href="page2.html">الخيار 2</a>
-        <a href="page3.html">الخيار 3</a>
-        <a href="page4.html">الخيار 4</a>
-        <a href="page5.html">الخيار 5</a>
-        <a href="page6.html">https://noori.com.sa/%D9%85%D8%AC%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B6/</a>
+        <!-- روابط داخلية -->
+        <a href="page1.html">الصفحة 1</a>
+        <a href="page2.html">الصفحة 2</a>
+
+        <!-- روابط مواقع خارجية -->
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+
+        <!-- رابط إلى صفحة داخلية -->
+        <a href="contact.html">صفحة التواصل</a>
     </div>
 </body>
 </html>
