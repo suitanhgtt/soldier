@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحة موقع آخر</title>
+    <title>شبكة الخيارات</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
         }
-        iframe {
-            width: 100%;
-            height: 90vh;
-            border: none;
+        .grid a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .grid a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>عرض موقع آخر داخل موقعي</h1>
-    <iframe src="https://leaflet.panda.sa/
-        "></iframe>
+    <h1>خياراتك:</h1>
+    <div class="grid">
+        <a href="page1.html">الخيار 1</a>
+        <a href="page2.html">الخيار 2</a>
+        <a href="page3.html">الخيار 3</a>
+        <a href="page4.html">الخيار 4</a>
+        <a href="page5.html">الخيار 5</a>
+        <a href="page6.html">الخيار 6</a>
+    </div>
 </body>
 </html>
