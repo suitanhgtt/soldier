@@ -7,36 +7,44 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
         }
         h1 {
+            text-align: center;
             color: #333;
+            padding: 20px;
         }
-        a {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        iframe {
+            width: 45%;
+            height: 500px;
+            border: 1px solid #ccc;
             border-radius: 5px;
-            width: 200px;
+            background-color: #fff;
+            margin: 10px;
         }
-        a:hover {
-            background-color: #0056b3;
+        @media (max-width: 768px) {
+            iframe {
+                width: 100%;
+                height: 400px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>مرحبًا بك في موقعي</h1>
-    <p>اختر إحدى الصفحات للانتقال إليها:</p>
-    
-    <!-- رابط للصفحة الأولى -->
-    <a href="https://noori.com.sa/%D9%85%D8%AC%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B6/" target="_blank">مجلة العروض</a>
-    
-    <!-- رابط للصفحة الثانية -->
-    <a href="https://leaflet.panda.sa/national/" target="_blank">نشرة باندا الوطنية</a>
+    <div class="container">
+        <!-- إطار لعرض الصفحة الأولى -->
+        <iframe src="https://noori.com.sa/%D9%85%D8%AC%D9%84%D8%A9-%D8%A7%D9%84%D8%B5%D8%B1%D9%88%D8%B6/" title="مجلة العروض"></iframe>
+        
+        <!-- إطار لعرض الصفحة الثانية -->
+        <iframe src="https://leaflet.panda.sa/national/" title="نشرة باندا الوطنية"></iframe>
+    </div>
 </body>
 </html>
