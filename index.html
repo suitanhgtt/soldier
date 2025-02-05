@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>موقعي</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        iframe {
-            width: 100%;
-            height: 600px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #fff;
-            margin-top: 20px;
-        }
-    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>مرحبًا بك في موقعي</h1>
-    <p>هذا الموقع يحتوي على محتوى من موقع آخر:</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">موقعي</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="leaflet.html">Leaflet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noori.html">مجلة العروض</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weekly-deals.html">العروض الأسبوعية</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <!-- إطار لعرض الموقع الآخر -->
-    <iframe src="https://noori.com.sa/%D9%85%D8%AC%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B6/" title="موقع نوري"></iframe>
+    <div class="container mt-4">
+        <h1>مرحبًا بك في موقعي</h1>
+        <p>هذا موقع يحتوي على صفحات مستقلة لكل من الروابط المذكورة.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
