@@ -3,56 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقعي المتكيف</title>
+    <title>عرض موقع آخر</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
+            overflow: hidden; /* منع التمرير في الصفحة */
         }
-        header, footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
-        main {
-            padding: 20px;
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .box {
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin: 10px;
-            width: 30%;
-            box-sizing: border-box;
-        }
-        /* Media Query للشاشات الصغيرة (الجوالات) */
-        @media (max-width: 768px) {
-            .box {
-                width: 100%;
-            }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>مرحبًا بك في موقعي المتكيف</h1>
-    </header>
-    <main>
-        <div class="content">
-            <div class="box">محتوى 1</div>
-            <div class="box">محتوى 2</div>
-            <div class="box">محتوى 3</div>
-        </div>
-    </main>
-    <footer>
-        <p>جميع الحقوق محفوظة &copy; 2023</p>
-    </footer>
+    <iframe src="https://noori.com.sa/مجلة-العروض/"></iframe>
 </body>
 </html>
