@@ -3,26 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقعي</title>
+    <title>موقعي المتكيف</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             text-align: center;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        main {
             padding: 20px;
         }
-        iframe {
-            width: 100%;
-            height: 500px;
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .box {
+            background-color: #f4f4f4;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        /* Media Query للشاشات الصغيرة (الجوالات) */
+        @media (max-width: 768px) {
+            .box {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>مرحبًا بك في موقعي</h1>
-    <p>هذا محتوى من موقع آخر:</p>
-    
-    <!-- تضمين صفحة موقع آخر -->
-    <iframe src="https://noori.com.sa/%D9%85%D8%AC%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B6/" title="صفحة موقع آخر"></iframe>
+    <header>
+        <h1>مرحبًا بك في موقعي المتكيف</h1>
+    </header>
+    <main>
+        <div class="content">
+            <div class="box">محتوى 1</div>
+            <div class="box">محتوى 2</div>
+            <div class="box">محتوى 3</div>
+        </div>
+    </main>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2023</p>
+    </footer>
 </body>
 </html>
