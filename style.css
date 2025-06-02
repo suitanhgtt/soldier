@@ -13,8 +13,8 @@ body {
   width: 550px;
 }
 
-border-text {
+.border-text {
   border-color: red;
-  border-widtn: 20px;
+  border-width: 20px;
   border-style: solid;
 }
