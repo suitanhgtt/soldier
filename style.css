@@ -1,7 +1,15 @@
 h1 {
   color: red;
-  
    font-size: 20px;
+  font-family: monospace;
+  background: black;
 }
+
+body {
+  background: pink;
   
+}
+.text {
+  width: 550px;
+}
 
