@@ -18,3 +18,9 @@ body {
   border-width: 20px;
   border-style: solid;
 }
+.green-text {
+  border-radius: 20px;
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+}
