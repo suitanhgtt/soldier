@@ -1,34 +1,47 @@
-h1 {
-  color: red;
-   font-size: 20px;
-  font-family: monospace;
-  background: black;
-}
-
-body {
-  background: pink;
+.text-one {
+  
+  font-size: 20px;
+  
+  text-align: right;
   
 }
-.text {
-  width: 550px;
+.box {
+  
+  width: 190px;
+  
+  height: 158px;
+  
+  background-color: red;
+  
+  float: right;
+  
+  color: white;
+}
+ 
+.text-float {
+  
+  direction: rtl;
+  
+  text-align: right;
+  
 }
 
-.border-text {
-  border-color: red;
-  border-width: 20px;
-  border-style: solid;
+.box-top { 
+  
+  width: 350px;
+  height: 1008px;
+  background-color: #ccc;
+  float: right;
+  margin-top: 10px; 
+  font-size: 18px;
+  text-align: right;
+  line-height: 0.8;
+
+  
 }
-.green-text {
-  border-radius: 20px;
-  border-color: green;
-  border-width: 10px;
-  border-style: solid;
-}
-.text-size {
-  font-size: 25px;
-}
-div {
-height: 80px;
-width: 90px;
-background: green;
+
+.text-oo {
+  
+  line-height: 1.5;
+  
 }
