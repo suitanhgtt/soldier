@@ -1,47 +1,86 @@
-.text-one {
-  
-  font-size: 20px;
-  
-  text-align: right;
-  
-}
-.box {
-  
-  width: 190px;
-  
-  height: 158px;
-  
-  background-color: red;
-  
-  float: right;
-  
-  color: white;
-}
- 
-.text-float {
-  
+body {
+
+
+  background-color: #f0f0f0;
+
   direction: rtl;
-  
-  text-align: right;
-  
+
 }
 
-.box-top { 
-  
-  width: 350px;
-  height: 1008px;
-  background-color: #ccc;
-  float: right;
-  margin-top: 10px; 
-  font-size: 18px;
-  text-align: right;
-  line-height: 0.8;
+.text-ro {
 
-  
+  text-align: center;
+
+  font-size: 25px;
+
 }
 
-.text-oo {
-  
-  line-height: 1.5;
-  
+.text-pp {
+
+   text-align: right;
+
 }
+
+.box-rv {
+
+  color: white;
+
+  background-color: red;
+
+  width: ;
+
+  height: px;
+
+  margin: 70px;
+
+  padding: 0px;
+
+}
+
+#box-video {
+
+  width: 50px;
+
+  height: 60px;
+
+  background-color: blue;
+
+}
+
+.video-box {
+
+  max-width: 600px;
+
+  margin: auto;
+
+  padding: 20px;
+
+  background-color: #f9f9f9;
+
+  border-radius: 12px;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  text-align: center;
+
+}
+
+video {
+
+  width: 100%;
+
+  max-width: 600px;
+
+  height: auto;
+
+  border-radius: 10px;
+
+}
+
+.imgo {
+  width: 200px;
+  height: 150px;
+}
+
+
+Resources
